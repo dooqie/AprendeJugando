@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AprendeJugando.TextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="Widget.AprendeJugando.Button" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="TextAppearance.AprendeJugando" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.AprendeJugando.Regular">
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.AprendeJugando.ExtraBold">
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.AprendeJugando.SemiBold">
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Boton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+    <style name="KidAppTitle" parent="">
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+
+    <style name="KidAppSubtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="KidAppQuestionText">
+        <item name="android:textSize">48sp</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="KidAppScoreText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_light</item>
+    </style>
+
+    <style name="KidAppButtonPrimary">
+        <item name="android:background">@drawable/btn_primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+    <style name="KidAppButtonSecondary">
+        <item name="android:background">@drawable/btn_secondary</item>
+        <item name="android:textColor">@color/primary_blue</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+    <style name="KidAppButtonGame">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="KidAppEditText">
+        <item name="android:background">@drawable/edittext_rounded</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+
+    <style name="KidAppLoginTitle" parent="">
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="KidAppLoginButton" parent="">
+        <item name="android:background">@drawable/btn_login_pastel</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/nunito_extrabold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+</resources>

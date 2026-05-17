@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AprendeJugando"
+        tools:targetApi="31">
+
+        <!-- Actividad de Login como actividad inicial -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Onboarding (primera ejecución) -->
+        <activity android:name=".ui.onboarding.OnboardingActivity" />
+
+        <!-- Registro -->
+        <activity android:name=".ui.auth.RegistroActivity" />
+
+        <!-- Permisos por hijo (lanzado desde AdminActivity) -->
+        <activity android:name=".ui.auth.PermisosHijoActivity" />
+
+        <!-- Menú Principal -->
+        <activity android:name=".ui.main.MainActivity" />
+
+        <!-- Selección de dificultad -->
+        <activity android:name=".ui.ejercicios.SeleccionNivelActivity" />
+
+        <!-- Ejercicios -->
+        <activity android:name=".ui.ejercicios.MultiplicarActivity" />
+        <activity android:name=".ui.ejercicios.SumarActivity" />
+        <activity android:name=".ui.ejercicios.RestarActivity" />
+        <activity android:name=".ui.ejercicios.DividirActivity" />
+        <activity android:name=".ui.ejercicios.MixtoActivity" />
+        <activity android:name=".ui.ejercicios.FigurasActivity" />
+        <activity android:name=".ui.ejercicios.AnimalesActivity" />
+        <activity android:name=".ui.ejercicios.LogicaActivity" />
+        <activity android:name=".ui.ejercicios.MemoriaActivity" />
+        <activity android:name=".ui.ejercicios.LevelUpActivity" />
+        <activity android:name=".ui.ejercicios.InformeActivity" />
+        <activity android:name=".ui.ejercicios.HistorialActivity" />
+        <activity android:name=".ui.ejercicios.ProgresoActivity" />
+
+        <!-- Panel Admin -->
+        <activity android:name=".ui.admin.AdminActivity" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+</manifest>

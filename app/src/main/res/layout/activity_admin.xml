@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_menu_clean"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel de Administración"
+        android:textSize="24sp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:textStyle="normal"
+        android:textColor="#1976D2"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear nuevo usuario"
+        android:textSize="18sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textStyle="normal"
+        android:textColor="#333"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etNuevoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"
+        android:fontFamily="@font/nunito"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etNuevaContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:fontFamily="@font/nunito"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/spinnerNuevoRol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:padding="12dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Crear usuario"
+        android:fontFamily="@font/nunito_extrabold"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:minHeight="56dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_action_green"
+        android:textColor="@color/text_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuarios registrados"
+        android:textSize="18sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textStyle="normal"
+        android:textColor="#333"
+        android:layout_marginTop="16dp" />
+
+    <ListView
+        android:id="@+id/lvUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas por tipo"
+        android:textSize="18sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:textStyle="normal"
+        android:textColor="#333"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerEstadisticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEliminarUsuario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Eliminar Usuario"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:minHeight="56dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_action_red"
+            android:textColor="@color/text_light"
+            android:layout_margin="4dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEditarPermisos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Editar Permisos"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:minHeight="56dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_action_grey"
+            android:textColor="@color/text_light"
+            android:layout_margin="4dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnVerEstadisticas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ver Estadísticas"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:minHeight="56dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_action_blue"
+            android:textColor="@color/text_light"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolverAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Volver"
+        android:onClick="onVolverClicked"
+        style="@style/KidAppButtonSecondary" />
+
+</LinearLayout>

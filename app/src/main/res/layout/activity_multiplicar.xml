@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/juegoLayoutMultiplicar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/cardInfoMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/card_ejercicio_info_bg"
+        android:elevation="4dp"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nivelTextViewMultiplicar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Nivel: 1"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/timerTextViewMultiplicar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Tiempo: 60"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/scoreTextViewMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Aciertos: 0 | Fallos: 0"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/opcionesContainerMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnVolverMultiplicar"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/opcion1ButtonMultiplicar"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="10"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_rounded_purple"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:id="@+id/opcion2ButtonMultiplicar"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="15"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_rounded_pink"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/opcion3ButtonMultiplicar"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="20"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_rounded_yellow"
+                android:layout_margin="8dp" />
+
+            <Button
+                android:id="@+id/opcion4ButtonMultiplicar"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="25"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_rounded_cyan"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardInfoMultiplicar"
+        android:layout_above="@id/opcionesContainerMultiplicar"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/card_ejercicio_pregunta_bg"
+                android:elevation="6dp"
+                android:padding="28dp">
+
+                <TextView
+                    android:id="@+id/preguntaTextViewMultiplicar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="5 x 3 = ?"
+                    android:textColor="@color/primary_blue"
+                    android:textSize="56sp"
+                    android:fontFamily="@font/nunito_extrabold"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolverMultiplicar"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Volver"
+        android:onClick="onVolverClicked"
+        style="@style/KidAppButtonSecondary" />
+
+</RelativeLayout>

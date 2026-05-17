@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores primarios vibrantes para niños -->
+    <color name="primary_blue">#0066FF</color>
+    <color name="primary_green">#00CC44</color>
+    <color name="primary_orange">#FF9900</color>
+    <color name="primary_pink">#FF66CC</color>
+    <color name="primary_purple">#9933FF</color>
+    <color name="primary_yellow">#FFCC00</color>
+
+    <!-- Colores claros/pastel para fondos -->
+    <color name="light_blue">#E3F2FD</color>
+    <color name="light_green">#E8F5E9</color>
+    <color name="light_orange">#FFF3E0</color>
+    <color name="light_pink">#FCE4EC</color>
+    <color name="light_purple">#F3E5F5</color>
+    <color name="light_yellow">#FFFDE7</color>
+
+    <!-- Colores de acento -->
+    <color name="accent_red">#FF3333</color>
+    <color name="accent_success">#33CC33</color>
+    <color name="accent_warning">#FFB300</color>
+
+    <!-- Colores de texto -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_light">#FFFFFF</color>
+
+    <!-- Colores de fondo -->
+    <color name="bg_main">#F5F5F5</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <!-- Tokens semánticos (UI) -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEEEEE</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="error">#FF3333</color>
+    <color name="success">#33CC33</color>
+    <color name="divider">#DDDDDD</color>
+
+    <!-- Login pastel beige -->
+    <color name="login_beige_light">#FDF6EE</color>
+    <color name="login_beige_mid">#E8C99A</color>
+    <color name="login_beige_dark">#C9A06A</color>
+
+    <!-- Menú: sombra y borde tipo costura para fichas de módulo -->
+    <color name="modulo_tile_shadow">#40000000</color>
+    <color name="modulo_stitch_white">#CCFFFFFF</color>
+
+    <!-- Teal (Multiplicar) -->
+    <color name="modulo_teal_light">#6FDDD6</color>
+    <color name="modulo_teal_mid">#3EC9C0</color>
+    <color name="modulo_teal_dark">#2A9A93</color>
+    <color name="modulo_teal_press">#1F7A74</color>
+
+    <!-- Amber (Administración) -->
+    <color name="modulo_amber_light">#FFD060</color>
+    <color name="modulo_amber_mid">#F4A535</color>
+    <color name="modulo_amber_dark">#C77E20</color>
+    <color name="modulo_amber_press">#A66518</color>
+
+    <!-- Sky teal (Sumar) -->
+    <color name="modulo_sky_teal_light">#73D4C9</color>
+    <color name="modulo_sky_teal_mid">#4DC8B8</color>
+    <color name="modulo_sky_teal_dark">#369689</color>
+    <color name="modulo_sky_teal_press">#287A6D</color>
+
+    <!-- Coral (Restar) -->
+    <color name="modulo_coral_light">#FF8A8A</color>
+    <color name="modulo_coral_mid">#F06B6B</color>
+    <color name="modulo_coral_dark">#C44A4A</color>
+    <color name="modulo_coral_press">#9E3838</color>
+
+    <!-- Lime (Dividir) -->
+    <color name="modulo_lime_light">#9ED89A</color>
+    <color name="modulo_lime_mid">#7BC67A</color>
+    <color name="modulo_lime_dark">#5AA656</color>
+    <color name="modulo_lime_press">#458042</color>
+
+    <!-- Warm orange (Mixto) -->
+    <color name="modulo_warm_orange_light">#FFA570</color>
+    <color name="modulo_warm_orange_mid">#F4874B</color>
+    <color name="modulo_warm_orange_dark">#C86538</color>
+    <color name="modulo_warm_orange_press">#A04F2A</color>
+
+    <!-- Rose (Figuras) -->
+    <color name="modulo_rose_light">#FF8AAC</color>
+    <color name="modulo_rose_mid">#E8678A</color>
+    <color name="modulo_rose_dark">#B84A63</color>
+    <color name="modulo_rose_press">#92364C</color>
+
+    <!-- Purple (Lógica) -->
+    <color name="modulo_purple_light">#B894E0</color>
+    <color name="modulo_purple_mid">#9B72CF</color>
+    <color name="modulo_purple_dark">#7552A8</color>
+    <color name="modulo_purple_press">#5A3F82</color>
+
+    <!-- Candy pink (Memoria) -->
+    <color name="modulo_candy_pink_light">#F0A0C7</color>
+    <color name="modulo_candy_pink_mid">#E07DAB</color>
+    <color name="modulo_candy_pink_dark">#B85A87</color>
+    <color name="modulo_candy_pink_press">#92466C</color>
+
+    <!-- Peach (Animales) -->
+    <color name="modulo_peach_light">#FFC09A</color>
+    <color name="modulo_peach_mid">#F4A07A</color>
+    <color name="modulo_peach_dark">#CC7A52</color>
+    <color name="modulo_peach_press">#A66040</color>
+
+    <!-- Blue-teal (Historial) -->
+    <color name="modulo_blue_teal_light">#7BC9E8</color>
+    <color name="modulo_blue_teal_mid">#5BAFD6</color>
+    <color name="modulo_blue_teal_dark">#3D8AB0</color>
+    <color name="modulo_blue_teal_press">#2E6F92</color>
+
+    <!-- Fresh green (Progreso) -->
+    <color name="modulo_fresh_green_light">#8FD992</color>
+    <color name="modulo_fresh_green_mid">#6DC47B</color>
+    <color name="modulo_fresh_green_dark">#4BA65A</color>
+    <color name="modulo_fresh_green_press">#3A8448</color>
+
+    <!-- Botones: estilo fieltro (KidApp primary = verde) -->
+    <color name="btn_primary_light">#55E080</color>
+    <color name="btn_primary_dark">#009933</color>
+    <color name="btn_primary_press">#007A28</color>
+
+    <!-- Botón secundario (contorno azul) -->
+    <color name="btn_secondary_fill">#F0F7FF</color>
+    <color name="btn_secondary_dark">#0044BB</color>
+    <color name="btn_secondary_press">#D0E8FF</color>
+
+    <!-- Cyan (opciones juego) -->
+    <color name="btn_cyan_light">#4DD0E1</color>
+    <color name="btn_cyan_mid">#00BCD4</color>
+    <color name="btn_cyan_dark">#00838F</color>
+    <color name="btn_cyan_press">#006064</color>
+
+    <!-- Redondeados vibrantes (gradiente sobre primary_*) -->
+    <color name="btn_felt_purple_light">#BB77FF</color>
+    <color name="btn_felt_purple_dark">#7722CC</color>
+    <color name="btn_felt_purple_press">#5A1894</color>
+    <color name="btn_felt_pink_light">#FF99DD</color>
+    <color name="btn_felt_pink_dark">#E645B0</color>
+    <color name="btn_felt_pink_press">#B82E8C</color>
+    <color name="btn_felt_yellow_light">#FFDD66</color>
+    <color name="btn_felt_yellow_dark">#E6AC00</color>
+    <color name="btn_felt_yellow_press">#B88600</color>
+    <color name="btn_felt_orange_light">#FFAA33</color>
+    <color name="btn_felt_orange_dark">#CC7700</color>
+    <color name="btn_felt_orange_press">#995500</color>
+
+    <!-- Login: pulsado más oscuro -->
+    <color name="login_beige_press">#A67F52</color>
+
+    <!-- Acciones (admin, sesión) -->
+    <color name="btn_action_red_light">#FF6666</color>
+    <color name="btn_action_red_mid">#F44336</color>
+    <color name="btn_action_red_dark">#C62828</color>
+    <color name="btn_action_red_press">#9A1515</color>
+    <color name="btn_action_blue_light">#4DA8F5</color>
+    <color name="btn_action_blue_mid">#1976D2</color>
+    <color name="btn_action_blue_dark">#0D56A8</color>
+    <color name="btn_action_blue_press">#083D80</color>
+    <color name="btn_action_grey_light">#9E9E9E</color>
+    <color name="btn_action_grey_mid">#757575</color>
+    <color name="btn_action_grey_dark">#525252</color>
+    <color name="btn_action_grey_press">#3A3A3A</color>
+
+    <!-- Feedback respuesta -->
+    <color name="btn_feedback_correct_light">#81C784</color>
+    <color name="btn_feedback_correct_mid">#4CAF50</color>
+    <color name="btn_feedback_correct_dark">#2E7D32</color>
+    <color name="btn_feedback_correct_press">#1B5E20</color>
+    <color name="btn_feedback_incorrect_light">#EF9A9A</color>
+    <color name="btn_feedback_incorrect_mid">#F44336</color>
+    <color name="btn_feedback_incorrect_dark">#B71C1C</color>
+    <color name="btn_feedback_incorrect_press">#8B0000</color>
+
+    <!-- Sombra suave para botones claros -->
+    <color name="btn_soft_shadow">#28000000</color>
+</resources>

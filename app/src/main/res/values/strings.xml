@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Aprende Jugando</string>
+    <string name="selecciona_tablas">¿Qué tabla quieres practicar hoy?  :</string>
+    <string name="tabla_del_1">Tabla del 1</string>
+    <string name="tabla_del_2">Tabla del 2</string>
+    <string name="tabla_del_3">Tabla del 3</string>
+    <string name="tabla_del_4">Tabla del 4</string>
+    <string name="tabla_del_5">Tabla del 5</string>
+    <string name="tabla_del_6">Tabla del 6</string>
+    <string name="tabla_del_7">Tabla del 7</string>
+    <string name="tabla_del_8">Tabla del 8</string>
+    <string name="tabla_del_9">Tabla del 9</string>
+    <string name="tabla_del_10">Tabla del 10</string>
+    <string name="seleccionar">VAMOS</string>
+    <string name="jugar">JUGAR</string>
+    <string name="estrella_progreso">Estrella de progreso</string>
+    <string name="pregunta">¿Pregunta?</string>
+    <string name="cronometro_texto">Tiempo: 120s</string>
+    <string name="puntaje_inicial">Aciertos: 0 | Fallos: 0</string>
+    <string name="opcion1">Opción 1</string>
+    <string name="opcion2">Opción 2</string>
+    <string name="opcion3">Opción 3</string>
+    <string name="opcion4">Opción 4</string>
+    <string name="descripcion_portada">Imagen de portada con el logo de la aplicación</string>
+    <string name="enhorabuena">¡Enhorabuena!</string>
+    <string name="explicacion_siguiente_nivel">Ahora, necesitas conseguir 5 estrellas para pasar al siguiente nivel.</string>
+    <string name="continuar">Continuar</string>
+    <string name="titulo_reporte">Resultados del Juego</string>
+    <string name="nivel_alcanzado">Nivel alcanzado: 1</string>
+    <string name="mensaje_genial">¡Estás haciendo genial!</string>
+    <string name="aciertos_text">Aciertos: 0</string>
+    <string name="fallos_text">Fallos: 0</string>
+    <string name="diferencia_text">Diferencia: 0</string>
+    <string name="reiniciar">Jugar de nuevo</string>
+    <string name="salir">Salir</string>
+    <string name="modulo_icon">Icono del módulo educativo</string>
+
+    <!-- Login / registro -->
+    <string name="login_subtitulo">Bienvenido</string>
+    <string name="login_usuario_hint">Nombre de usuario</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_btn">Iniciar sesión</string>
+    <string name="login_sin_cuenta">¿No tienes cuenta? Regístrate como padre</string>
+    <string name="registro_titulo">Cuenta padre</string>
+    <string name="registro_boton">Registrarse</string>
+    <string name="registro_confirmar_hint">Confirmar contraseña</string>
+    <string name="registro_btn">Crear cuenta padre</string>
+    <string name="registro_tiene_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Registro padre / permisos por hijo -->
+    <string name="registro_padre_subtitulo">Crea tu cuenta padre para añadir hijos y ejercicios</string>
+    <string name="permisos_titulo">Permisos: %1$s</string>
+    <string name="permisos_activar_todos">Activar todos</string>
+    <string name="permisos_desactivar_todos">Desactivar todos</string>
+    <string name="permiso_ejercicio_desc">Ejercicios que puede abrir desde el menú</string>
+    <string name="atras">Atrás</string>
+
+    <!-- Selección de dificultad -->
+    <string name="seleccion_titulo">¿Qué dificultad quieres?</string>
+    <string name="dificultad_facil">Fácil</string>
+    <string name="dificultad_medio">Medio</string>
+    <string name="dificultad_dificil">Difícil</string>
+    <string name="dificultad_facil_desc">Más tiempo y ayudas</string>
+    <string name="dificultad_medio_desc">Equilibrado</string>
+    <string name="dificultad_dificil_desc">Menos tiempo, más reto</string>
+    <string name="btn_comenzar">¡Vamos!</string>
+
+    <!-- Informe -->
+    <string name="informe_buena">¡Buen trabajo, %1$s!</string>
+    <string name="informe_nivel">Nivel alcanzado: %1$d</string>
+    <string name="informe_aciertos_label">Aciertos</string>
+    <string name="informe_fallos_label">Fallos</string>
+    <string name="informe_diferencia_label">Diferencia</string>
+    <string name="informe_mensaje_gold">¡Increíble!</string>
+    <string name="informe_mensaje_ok">¡Muy bien!</string>
+    <string name="informe_mensaje_keep">¡Sigue practicando!</string>
+    <string name="informe_repetir">Jugar otra vez</string>
+    <string name="informe_volver_menu">Volver al menú</string>
+    <string name="desc_star_empty">Estrella vacía</string>
+    <string name="desc_star_filled">Estrella conseguida</string>
+
+    <!-- Historial -->
+    <string name="historial_titulo">Historial de partidas</string>
+    <string name="historial_col_tipo">Tipo</string>
+    <string name="historial_col_aciertos">Aciertos</string>
+    <string name="historial_col_fallos">Fallos</string>
+    <string name="historial_col_dif">Dif.</string>
+    <string name="historial_col_fecha">Fecha</string>
+    <string name="historial_atras">Atrás</string>
+
+    <string name="exercise_multiplicar">Multiplicar</string>
+    <string name="exercise_sumar">Sumar</string>
+    <string name="exercise_restar">Restar</string>
+    <string name="exercise_dividir">Dividir</string>
+    <string name="exercise_mixto">Operaciones</string>
+    <string name="admin_titulo">Administración</string>
+    <string name="exercise_figuras">Figuras</string>
+    <string name="pregunta_figuras">¿Qué figura es?</string>
+    <string name="exercise_logica">Lógica</string>
+    <string name="exercise_memoria">Memoria</string>
+    <string name="exercise_animales">Animales</string>
+    <string name="pregunta_animales">¿Qué animal es?</string>
+
+    <!-- Nombres de figuras (Figuras por dificultad) -->
+    <string name="figura_circulo">Círculo</string>
+    <string name="figura_cuadrado">Cuadrado</string>
+    <string name="figura_triangulo">Triángulo</string>
+    <string name="figura_rectangulo">Rectángulo</string>
+    <string name="figura_estrella">Estrella</string>
+    <string name="figura_corazon">Corazón</string>
+    <string name="figura_rombo">Rombo</string>
+    <string name="figura_trapecio">Trapecio</string>
+    <string name="figura_paralelogramo">Paralelogramo</string>
+    <string name="figura_elipse">Elipse</string>
+    <string name="figura_ovalo">Óvalo</string>
+    <string name="figura_pentagono">Pentágono</string>
+    <string name="figura_hexagono">Hexágono</string>
+    <string name="figura_heptagono">Heptágono</string>
+    <string name="figura_octagono">Octágono</string>
+    <string name="figura_eneagono">Eneágono</string>
+    <string name="figura_decagono">Decágono</string>
+
+    <!-- Nombres en ejercicio Animales -->
+    <string name="animal_vaca">Vaca</string>
+    <string name="animal_pajaro">Pájaro</string>
+    <string name="animal_cerdo">Cerdo</string>
+    <string name="animal_caballo">Caballo</string>
+    <string name="animal_buho">Búho</string>
+    <string name="animal_lobo">Lobo</string>
+    <string name="animal_perro">Perro</string>
+    <string name="animal_gato">Gato</string>
+    <!-- Emoji del cerdo (menú principal y ejercicio Animales) -->
+    <string name="animal_emoji_cerdo" translatable="false">🐷</string>
+
+    <!-- Onboarding (guía de primera ejecución) -->
+    <string name="onboarding_siguiente">Siguiente</string>
+    <string name="onboarding_empezar">¡Empezar!</string>
+    <string name="onboarding_saltar">Saltar</string>
+
+    <string name="onboarding_titulo_1">¡Bienvenido a Aprende Jugando!</string>
+    <string name="onboarding_desc_1">La aplicación educativa que convierte el aprendizaje de las matemáticas en un juego divertido para niños.</string>
+
+    <string name="onboarding_titulo_2">9 tipos de ejercicios</string>
+    <string name="onboarding_desc_2">Practica multiplicaciones, sumas, restas, divisiones, figuras, animales, lógica, memoria y operaciones mixtas con distintos niveles de dificultad.</string>
+
+    <string name="onboarding_titulo_3">¡Sube de nivel!</string>
+    <string name="onboarding_desc_3">Encadena respuestas correctas para subir de nivel y ganar estrellas. Consulta tu progreso y historial de partidas en cualquier momento.</string>
+
+    <string name="onboarding_titulo_4">Cuenta padre / admin</string>
+    <string name="onboarding_desc_4">Regístrate como padre para crear cuentas de hijo, controlar qué ejercicios pueden ver y revisar sus estadísticas desde el panel de administración.</string>
+</resources>

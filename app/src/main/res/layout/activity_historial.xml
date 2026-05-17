@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_menu_clean"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_gradient_purple"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/historial_titulo"
+            android:textColor="@color/text_light"
+            android:textSize="22sp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/modulo_rounded_bg"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/historial_col_tipo"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/historial_col_aciertos"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/historial_col_fallos"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/historial_col_dif"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:gravity="center"
+            android:text="@string/historial_col_fecha"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_light"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/historialListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAtrasHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/historial_atras"
+        style="@style/KidAppButtonSecondary" />
+</LinearLayout>

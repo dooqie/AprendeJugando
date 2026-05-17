@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_menu_clean"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:paddingBottom="32dp">
+
+        <!-- Animación Lottie -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="32dp"
+            android:visibility="gone"
+            app:lottie_fileName="bravo.json"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false" />
+
+        <!-- Mensaje de enhorabuena -->
+        <TextView
+            android:id="@+id/etiquetaEnhorabuena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enhorabuena"
+            android:textSize="28sp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="24dp"
+            android:gravity="center" />
+
+        <!-- Botón para continuar -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botonContinuar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_action_green"
+            android:padding="14dp"
+            android:text="@string/continuar"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:textStyle="normal"
+            android:textAllCaps="false" />
+
+        <!-- Explicación del siguiente nivel -->
+        <TextView
+            android:id="@+id/explicacionSiguienteNivel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/explicacion_siguiente_nivel"
+            android:textSize="20sp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/card_ejercicio_pregunta_bg"
+            android:padding="20dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

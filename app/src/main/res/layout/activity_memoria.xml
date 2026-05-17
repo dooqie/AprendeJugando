@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/juegoLayoutMemoria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/cardInfoMemoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/card_ejercicio_info_bg"
+        android:elevation="4dp"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nivelTextViewMemoria"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Nivel: 1"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/timerTextViewMemoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Tiempo: 60"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/scoreTextViewMemoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Parejas: 0/6"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridMemoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardInfoMemoria"
+        android:layout_above="@id/btnVolverMemoria"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:useDefaultMargins="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnVolverMemoria"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Volver"
+        android:onClick="onVolverClicked"
+        style="@style/KidAppButtonSecondary" />
+
+</RelativeLayout>

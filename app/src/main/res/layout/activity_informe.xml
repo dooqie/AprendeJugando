@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_menu_clean"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/informeHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_gradient_blue"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/informeTituloUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/text_light"
+                android:textSize="22sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/informeNombreEjercicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:textColor="@color/text_light"
+                android:textSize="16sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieBravo"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="8dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="bravo.json"
+            app:lottie_loop="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/card_ejercicio_pregunta_bg"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/nivelAlcanzadoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/text_primary"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_extrabold"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/estrellasInforme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:contentDescription="@string/desc_star_empty"
+                    android:src="@drawable/estrella_off" />
+
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:contentDescription="@string/desc_star_empty"
+                    android:src="@drawable/estrella_off" />
+
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:contentDescription="@string/desc_star_empty"
+                    android:src="@drawable/estrella_off" />
+
+                <ImageView
+                    android:id="@+id/star4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:contentDescription="@string/desc_star_empty"
+                    android:src="@drawable/estrella_off" />
+
+                <ImageView
+                    android:id="@+id/star5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="4dp"
+                    android:contentDescription="@string/desc_star_empty"
+                    android:src="@drawable/estrella_off" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mensajeMotivador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/header_gradient_orange"
+                android:gravity="center"
+                android:padding="12dp"
+                android:textColor="@color/text_light"
+                android:textSize="20sp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aciertosTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/fallosTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diferenciaTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnReiniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/informe_repetir"
+            style="@style/KidAppButtonPrimary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/informe_volver_menu"
+            style="@style/KidAppButtonSecondary" />
+    </LinearLayout>
+</ScrollView>
