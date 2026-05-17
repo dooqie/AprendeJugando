@@ -1,10 +1,8 @@
 # Aprende Jugando
 
-**Autor:** José López Mohedano
 **Versión:** 1.0
 **Plataforma:** Android (mínimo API 24 – Android 7.0 Nougat)
 
----
 
 ## Descripción
 
@@ -12,7 +10,6 @@ Aprende Jugando es una aplicación Android educativa orientada a niños en edad 
 
 La app incluye un sistema de cuentas con dos roles: **padre/administrador** y **niño**. El padre puede registrar cuentas infantiles y controlar qué ejercicios tiene disponibles cada hijo.
 
----
 
 ## Funcionalidades principales
 
@@ -49,7 +46,7 @@ La app incluye un sistema de cuentas con dos roles: **padre/administrador** y **
 - Pantalla de progreso con estadísticas por tipo de ejercicio
 - Gráficas de rendimiento (MPAndroidChart)
 
----
+
 
 ## Estructura del proyecto
 
@@ -66,7 +63,6 @@ app/src/main/java/com/aprende/jugando/
 └── utils/             # SessionManager, MusicPlayer, ButtonAnimUtils, PasswordUtils
 ```
 
----
 
 ## Base de datos
 
@@ -76,7 +72,6 @@ SQLite local gestionada por `DBHelper`. Tres tablas:
 - **resultados** — partidas jugadas: tipo de ejercicio, aciertos, fallos, tiempo y fecha
 - **permisos** — mapa usuario↔ejercicio que controla el acceso de cada niño
 
----
 
 ## Tecnologías utilizadas
 
@@ -88,7 +83,6 @@ SQLite local gestionada por `DBHelper`. Tres tablas:
 - **ViewPager2** — pantallas de onboarding
 - **Material Design** — componentes de interfaz
 
----
 
 ## Cómo importar el proyecto
 
